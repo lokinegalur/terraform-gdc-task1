@@ -15,5 +15,5 @@ module "webserver" {
   script_path="../startup.sh"
   static_ip=google_compute_address.static_ip.address
   instance_name="testdebian"
-  machine_type="e2-micro"
+  machine_type="e2-micro" 
 }
