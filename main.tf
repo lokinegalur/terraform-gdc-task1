@@ -12,7 +12,7 @@ resource "google_compute_address" "static_ip" {
 module "webserver" {
   source="./module1"              #path to the module
   zone="us-central1-a"
-  script_path="../startup.sh"
+  script_path="./startup.sh"
   static_ip=google_compute_address.static_ip.address
   instance_name="testdebian"
   machine_type="e2-micro" 
