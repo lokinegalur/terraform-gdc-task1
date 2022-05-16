@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "gdc_task1_bucket"
-    prefix  = "terraform-2/state"
+    bucket  = "qwiklabs-gcp-01-0d4ff9e6149f"
+    prefix  = "env/beginner"
   }
 }

@@ -1,5 +1,6 @@
 
 provider "google" {
+    project="qwiklabs-gcp-01-0d4ff9e6149f"
     zone="us-central1-a"
 }
 
