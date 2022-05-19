@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "qwiklabs-gcp-01-0d4ff9e6149f-tfstate"
+    bucket  = "qwiklabs-gcp-01-123f32466a5d-tfstate"
     prefix  = "env/beginner" 
   }
 }
