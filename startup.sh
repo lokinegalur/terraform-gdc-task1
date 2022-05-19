@@ -1,8 +1,10 @@
- #! /bin/bash
-sudo apt-get update
+#!/bin/bash
+apt-get update
+apt install -y git
 sudo apt install python3-venv -y
-git clone https://github.com/lokinegalur/flask-weather-apicall
-cd flask-weather-apicall/
+export HOME=/root
+git clone https://github.com/lokinegalur/flask-weather-apicall /opt/app
+cd /opt/app
 python3 -m venv venv
 source venv/bin/activate
 pip install Flask
