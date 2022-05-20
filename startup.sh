@@ -9,4 +9,4 @@ python3 -m venv venv
 source venv/bin/activate
 pip install Flask
 pip install requests
-flask run --host=0.0.0.0 --port=5000 >> log.txt 2>&1 &
+flask run --host=0.0.0.0 --port=80 >> log.txt 2>&1 &
